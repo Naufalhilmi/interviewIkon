@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F85F454B2CF3FB110011DAAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F85F454A2CF3FB110011DAAF /* AppDelegate.m */; };
+		F85F454E2CF3FB110011DAAF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F85F454D2CF3FB110011DAAF /* SceneDelegate.m */; };
+		F85F45512CF3FB110011DAAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85F45502CF3FB110011DAAF /* ViewController.m */; };
+		F85F45542CF3FB110011DAAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85F45522CF3FB110011DAAF /* Main.storyboard */; };
+		F85F45562CF3FB130011DAAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85F45552CF3FB130011DAAF /* Assets.xcassets */; };
+		F85F45592CF3FB130011DAAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85F45572CF3FB130011DAAF /* LaunchScreen.storyboard */; };
+		F85F455C2CF3FB130011DAAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F85F455B2CF3FB130011DAAF /* main.m */; };
+		F85F45692CF42FB40011DAAF /* ListEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = F85F45682CF42FB40011DAAF /* ListEntity.m */; };
+		F85F456C2CF42FD10011DAAF /* LIstViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F85F456B2CF42FD10011DAAF /* LIstViewModel.m */; };
+		F8E2DE502CF56E610055166C /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E2DE4F2CF56E610055166C /* TableViewCell.m */; };
+		F8E2DE522CF56EAA0055166C /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8E2DE512CF56EAA0055166C /* TableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F85F45462CF3FB110011DAAF /* NaufalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaufalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85F45492CF3FB110011DAAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F85F454A2CF3FB110011DAAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F85F454C2CF3FB110011DAAF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F85F454D2CF3FB110011DAAF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F85F454F2CF3FB110011DAAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F85F45502CF3FB110011DAAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F85F45532CF3FB110011DAAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F85F45552CF3FB130011DAAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F85F45582CF3FB130011DAAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F85F455A2CF3FB130011DAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85F455B2CF3FB130011DAAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F85F45672CF42FB40011DAAF /* ListEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListEntity.h; sourceTree = "<group>"; };
+		F85F45682CF42FB40011DAAF /* ListEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListEntity.m; sourceTree = "<group>"; };
+		F85F456A2CF42FD10011DAAF /* LIstViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIstViewModel.h; sourceTree = "<group>"; };
+		F85F456B2CF42FD10011DAAF /* LIstViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIstViewModel.m; sourceTree = "<group>"; };
+		F8E2DE4E2CF56E610055166C /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		F8E2DE4F2CF56E610055166C /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		F8E2DE512CF56EAA0055166C /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F85F45432CF3FB110011DAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F85F453D2CF3FB110011DAAF = {
+			isa = PBXGroup;
+			children = (
+				F85F45482CF3FB110011DAAF /* NaufalApp */,
+				F85F45472CF3FB110011DAAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F85F45472CF3FB110011DAAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F85F45462CF3FB110011DAAF /* NaufalApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F85F45482CF3FB110011DAAF /* NaufalApp */ = {
+			isa = PBXGroup;
+			children = (
+				F85F45622CF3FB260011DAAF /* Modules */,
+				F85F45492CF3FB110011DAAF /* AppDelegate.h */,
+				F85F454A2CF3FB110011DAAF /* AppDelegate.m */,
+				F85F454C2CF3FB110011DAAF /* SceneDelegate.h */,
+				F85F454D2CF3FB110011DAAF /* SceneDelegate.m */,
+				F85F45552CF3FB130011DAAF /* Assets.xcassets */,
+				F85F45572CF3FB130011DAAF /* LaunchScreen.storyboard */,
+				F85F455A2CF3FB130011DAAF /* Info.plist */,
+				F85F455B2CF3FB130011DAAF /* main.m */,
+			);
+			path = NaufalApp;
+			sourceTree = "<group>";
+		};
+		F85F45622CF3FB260011DAAF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F85F45632CF42F1C0011DAAF /* List */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F85F45632CF42F1C0011DAAF /* List */ = {
+			isa = PBXGroup;
+			children = (
+				F8E2DE492CF56DD40055166C /* ViewController */,
+				F85F45662CF42F930011DAAF /* ViewModel */,
+				F85F45652CF42F860011DAAF /* Model */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		F85F45652CF42F860011DAAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F85F45672CF42FB40011DAAF /* ListEntity.h */,
+				F85F45682CF42FB40011DAAF /* ListEntity.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F85F45662CF42F930011DAAF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F85F456A2CF42FD10011DAAF /* LIstViewModel.h */,
+				F85F456B2CF42FD10011DAAF /* LIstViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F8E2DE492CF56DD40055166C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F8E2DE4A2CF56DFA0055166C /* Cell */,
+				F85F454F2CF3FB110011DAAF /* ViewController.h */,
+				F85F45502CF3FB110011DAAF /* ViewController.m */,
+				F85F45522CF3FB110011DAAF /* Main.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F8E2DE4A2CF56DFA0055166C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F8E2DE4E2CF56E610055166C /* TableViewCell.h */,
+				F8E2DE4F2CF56E610055166C /* TableViewCell.m */,
+				F8E2DE512CF56EAA0055166C /* TableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F85F45452CF3FB110011DAAF /* NaufalApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85F455F2CF3FB130011DAAF /* Build configuration list for PBXNativeTarget "NaufalApp" */;
+			buildPhases = (
+				F85F45422CF3FB110011DAAF /* Sources */,
+				F85F45432CF3FB110011DAAF /* Frameworks */,
+				F85F45442CF3FB110011DAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaufalApp;
+			productName = NaufalApp;
+			productReference = F85F45462CF3FB110011DAAF /* NaufalApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F85F453E2CF3FB110011DAAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F85F45452CF3FB110011DAAF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F85F45412CF3FB110011DAAF /* Build configuration list for PBXProject "NaufalApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F85F453D2CF3FB110011DAAF;
+			productRefGroup = F85F45472CF3FB110011DAAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F85F45452CF3FB110011DAAF /* NaufalApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F85F45442CF3FB110011DAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85F45592CF3FB130011DAAF /* LaunchScreen.storyboard in Resources */,
+				F8E2DE522CF56EAA0055166C /* TableViewCell.xib in Resources */,
+				F85F45562CF3FB130011DAAF /* Assets.xcassets in Resources */,
+				F85F45542CF3FB110011DAAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F85F45422CF3FB110011DAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E2DE502CF56E610055166C /* TableViewCell.m in Sources */,
+				F85F45512CF3FB110011DAAF /* ViewController.m in Sources */,
+				F85F454B2CF3FB110011DAAF /* AppDelegate.m in Sources */,
+				F85F456C2CF42FD10011DAAF /* LIstViewModel.m in Sources */,
+				F85F455C2CF3FB130011DAAF /* main.m in Sources */,
+				F85F45692CF42FB40011DAAF /* ListEntity.m in Sources */,
+				F85F454E2CF3FB110011DAAF /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F85F45522CF3FB110011DAAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85F45532CF3FB110011DAAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F85F45572CF3FB130011DAAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85F45582CF3FB130011DAAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F85F455D2CF3FB130011DAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F85F455E2CF3FB130011DAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F85F45602CF3FB130011DAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NaufalApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NaufalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F85F45612CF3FB130011DAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NaufalApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NaufalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F85F45412CF3FB110011DAAF /* Build configuration list for PBXProject "NaufalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85F455D2CF3FB130011DAAF /* Debug */,
+				F85F455E2CF3FB130011DAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85F455F2CF3FB130011DAAF /* Build configuration list for PBXNativeTarget "NaufalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85F45602CF3FB130011DAAF /* Debug */,
+				F85F45612CF3FB130011DAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F85F453E2CF3FB110011DAAF /* Project object */;
+}
